@@ -11,7 +11,7 @@ app.get('/', (request, response) => {
 })
 
 
-app.post('/addNewVisitor', async (req, res) => {
+app.post('/addNewVisitor', async(req, res) => {
     console.log(JSON.stringify(req.body));
     const visitor_name = req.body.visitor_name;
     const visitor_age = req.body.visitor_age;
