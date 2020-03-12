@@ -1,1 +1,1 @@
-# exposing-json-api
+# expose-json-api
